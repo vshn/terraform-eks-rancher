@@ -9,3 +9,5 @@ RUN curl -sLo /usr/local/bin/kubectl https://storage.googleapis.com/kubernetes-r
 
 RUN curl -sLo /usr/local/bin/aws-iam-authenticator https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.5.0/aws-iam-authenticator_0.5.0_linux_amd64 \
   && chmod +x /usr/local/bin/aws-iam-authenticator
+
+ENTRYPOINT []
